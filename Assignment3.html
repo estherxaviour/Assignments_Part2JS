@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head><title></title>
+
+</head>
+<body>
+<form name="frm1" id="frm1" >
+First Name:&nbsp&nbsp<input type="text"  name="t1" id="nt1"><br><br>
+Last Name :&nbsp&nbsp<input type="text"  name="t2" id="nt2"><br><br>
+Email Id  :&nbsp&nbsp<input type="text"  name="t3" id="nt3"><br><br>
+Phone Number:&nbsp&nbsp<input type="text"  name="t4" id="nt4"><br><br>
+<input type="submit">
+</form>
+
+<script>
+var person={
+fname : "Esther",
+lname : "Xaviour",
+email : "abc@gmail.com",
+phone : 2562179
+};
+document.frm1.nt1.value=person["fname"];
+document.frm1.nt2.value=person["lname"];
+document.frm1.nt3.value=person["email"];
+document.frm1.nt4.value=person["phone"];
+</script>
+
+
+</body>
+</html>
+
+
+
